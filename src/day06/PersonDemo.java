@@ -14,37 +14,39 @@ private:私有，是一个权限修饰符，用于修饰成员。
 
 
  */
-class Person {
-    private /* 私有*/int age;
 
-    public void setAge(int a)
-    {
-        age=a;
-    }
-    public int getAge()
-    {
-        return age;
-    }
-    /*
-     public void haha(int a)
-    {
-        if (a>0&& a<130)
-        {
-            age=a;
-            speak();
-        }
+//class Person {
+//    private /* 私有*/int age;
+//
+//    public void setAge(int a)
+//    {
+//        age=a;
+//    }
+//    public int getAge()
+//    {
+//        return age;
+//    }
+//    /*
+//     public void haha(int a)
+//    {
+//        if (a>0&& a<130)
+//        {
+//            age=a;
+//            speak();
+//        }
+//
+//        else
+//            System.out.println("错误的数据");
+//    }
+//    void speak() {
+//        System.out.println("age=" + age);
+//    }
+//     */
+//    void speak() {
+//        System.out.println("age=" + age);
+//    }
+//}
 
-        else
-            System.out.println("错误的数据");
-    }
-    void speak() {
-        System.out.println("age=" + age);
-    }
-     */
-    void speak() {
-        System.out.println("age=" + age);
-    }
-}
 
 public class PersonDemo {
     public static void main(String[] args) {
