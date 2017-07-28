@@ -1,31 +1,47 @@
 package day06;
 
-class Person {
-    private String name;
-    private int age;
 
-    //定义一个Person类的构造函数。
-    Person() //构造函数，而且是空参数的。
-    {
-        name="baby";
-        age=1;
-        System.out.println("person run");
-    }
-    //如果有的孩子一出生就有名字
-    Person(String n)
-    {
-        name=n;
-    }
-    Person(String n,int a)
-    {
-        name=n;
-        age=a;
-    }
-    public void speak()
-    {
-        System.out.println(name+":"+age);
-    }
-}
+
+//class Person {
+//    private String name;
+//    private int age;
+//
+//    /*
+//    当成员变量和局部变量重名，就可以用关键字this来区分。
+//
+//    this:代表对象。代表哪个对象呢？当前对象。
+//         this就是所在函数所属对象的引用。
+//         简单说：哪个对象调用了this所在的函数，this就代表哪个对象。
+//
+//
+//     */
+//    //定义一个Person类的构造函数。
+//    Person() //构造函数，而且是空参数的。
+//    {
+//        name="baby";
+//        age=1;
+//        System.out.println("person run");
+//    }
+//    //如果有的孩子一出生就有名字
+//    Person(String name)
+//    {
+//        this.name=name;
+//    }
+//    public void setName(String n)
+//    {
+//        name=n;
+//    }
+//    Person(String n,int a)
+//    {
+//        name=n;
+//        age=a;
+//    }
+//    public void speak()
+//    {
+//        System.out.println(name+":"+age);
+//    }
+//}
+
 /*
 构造函数，构建创造对象是调用的函数。作用：可以给对象进行初始化。
 创建对象都必须要通过构造函数初始化。
@@ -52,6 +68,7 @@ public class ConsDemo {
        Person p= new Person();
 //       p.speak();
         Person p1=new Person("旺财");
+        p1.setName("旺旺");
         p1.speak();
 
         Person p2=new Person("小强",10);
