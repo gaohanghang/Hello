@@ -27,5 +27,6 @@ public class Employee {
         Employee empOne=new Employee("RUNOOS");
         empOne.setSalary(1000);
         empOne.printEmp();
+
     }
 }

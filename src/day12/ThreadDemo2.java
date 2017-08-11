@@ -35,7 +35,7 @@ class Demo2 extends Thread
     }
 
 }
-public class ThreaDemmo2 {
+public class ThreadDemo2 {
     public static void main(String[] args) {
 
         /*
