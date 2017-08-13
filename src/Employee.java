@@ -9,14 +9,17 @@ public class Employee {
     public String name;
     //私有变量，仅在该类可见
     private double salary; //salary工资，薪水
+
     //在构造器中对name赋值
     private Employee(String empName) {
         name = empName;
     }
+
     //设定salary的值
     public void setSalary(double empSal) {
         salary = empSal;
     }
+
     //打印信息
     public void printEmp() {
         System.out.println("名字：" + name);
@@ -24,7 +27,7 @@ public class Employee {
     }
 
     public static void main(String[] args) {
-        Employee empOne=new Employee("RUNOOS");
+        Employee empOne = new Employee("RUNOOS");
         empOne.setSalary(1000);
         empOne.printEmp();
 
