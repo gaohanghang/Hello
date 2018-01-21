@@ -1,0 +1,79 @@
+集合类的由来：
+    对象用于封装特有数据，对象多了需要存储，如果对象的个数不确定。
+    就使用集合容器进行存储。
+
+集合特点：
+1，用于存储对象的容器。
+2，集合的长度是可变的。
+3，集合中不可以存储基本数据类型值。
+
+集合容器因为内部数据结构不同，有多种具体容器。
+不断的向上抽取，就形成了集合框架。
+
+框架的顶层collection接口：
+
+Collection的常见方法：
+
+1，添加。
+    boolean add(Object obj);
+    boolean addAll(Collection coll);
+
+2，删除。
+    boolean remove(object obj);
+    boolean removeAll(Collection coll);
+    void clear();
+3，判断：
+    boolean contains(Object obj);
+    boolean containsAll(Collection coll);
+    boolean ifEmpty();//判断集合中是否有元素。
+
+4，获取：
+    int size();
+    Iterator iterator();取出元素的方法：迭代器。
+    该对象必须依赖于具体容器，因为每一个容器的数据结构都不同。
+    所以该迭代器对象是在容器内部实现的。
+    对于使用容器者而言，具体的实现不重要，只要通过容器获取到实现该方法的迭代器对象即可。
+    也就是iterator方法
+
+    Iterator接口就是对所有的Collection容器进行元素取出的公共接口。
+5,其他：
+    boolean retainAll(Collection coll);取交集。
+    Object() toArray():将集合转成数组。
+
+
+
+
+
+====================================================
+
+Map:一次添加一对集合。Collection 一次添加一个元素。
+    Map也称为双列集合，Collection集合称为单列集合。
+    其实map集合中存储的就是键值对。
+    map集合中必须保证键的唯一性。
+
+常用方法：
+1，添加。
+    value put(key,value):返回前一个和key关联的值，如果没有返回null
+
+2，删除。
+    void clear():清空map集合。
+    value remove(key):根据指定的key翻出这个键值对。
+3，判断。
+    boolean containsKey(key);
+    boolean containsValue(value)
+    boolean isEmpty();
+4,获取。
+    value get(key); 通过键获取值，如果没有该键返回null.
+                    当然可以通过返回null,来判断是否包含指定键。
+    int size();获取键值对的个数。
+
+
+Map常用的子类：
+    |--Hashtable:内部结构是哈希表，是同步的。不允许null作为键，null作为值。
+        |--Properties:用存储键值对型的配置文件信息。可以和IO技术相结合。
+
+    |--HashMap:内部结构是哈希表，不是同步的。允许null作为键，null作为值。
+    |--TreeMap：内部结构是二叉树，不是同步的。可以对Map集合中的键进行排序。
+
+
+
