@@ -1,4 +1,4 @@
-package 面试题.面试题系列4;
+package 面试题.面试题系列4自定义ArrayList;
 
 import java.util.Arrays;
 

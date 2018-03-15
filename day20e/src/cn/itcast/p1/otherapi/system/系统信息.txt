@@ -1,0 +1,55 @@
+java.runtime.name::Java(TM) SE Runtime Environment
+sun.boot.library.path::E:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin
+java.vm.version::25.144-b01
+java.vm.vendor::Oracle Corporation
+java.vendor.url::http://java.oracle.com/
+path.separator::;
+java.vm.name::Java HotSpot(TM) Client VM
+file.encoding.pkg::sun.io
+user.script::
+user.country::CN
+sun.java.launcher::SUN_STANDARD
+sun.os.patch.level::
+java.vm.specification.name::Java Virtual Machine Specification
+user.dir::E:\IdeaProjects\Hello
+java.runtime.version::1.8.0_144-b01
+java.awt.graphicsenv::sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs::E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\endorsed
+os.arch::x86
+java.io.tmpdir::C:\Users\13419\AppData\Local\Temp\
+line.separator::
+
+java.vm.specification.vendor::Oracle Corporation
+user.variant::
+os.name::Windows 10
+sun.jnu.encoding::GBK
+java.library.path::E:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;e:\Program Files\Git\cmd;"C:\Program Files\Java\jdk1.8.0_161\bin; C:\Program Files\Java\jdk1.8.0_161\jre\bin;";C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Bitvise SSH Client;E:\Program Files\nodejs\;C:\Users\13419\AppData\Local\Microsoft\WindowsApps;;E:\Program Files\Microsoft VS Code\bin;C:\Users\13419\AppData\Roaming\npm;.
+java.specification.name::Java Platform API Specification
+java.class.version::52.0
+sun.management.compiler::HotSpot Client Compiler
+os.version::10.0
+user.home::C:\Users\13419
+user.timezone::
+java.awt.printerjob::sun.awt.windows.WPrinterJob
+file.encoding::UTF-8
+java.specification.version::1.8
+user.name::13419
+java.class.path::E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\charsets.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\deploy.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\access-bridge-32.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\cldrdata.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\dnsns.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\jaccess.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\jfxrt.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\localedata.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\nashorn.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\sunec.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\sunjce_provider.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\sunmscapi.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\sunpkcs11.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\zipfs.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\javaws.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jce.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jfr.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jfxswt.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jsse.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\management-agent.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\plugin.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\resources.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\rt.jar;E:\IdeaProjects\Hello\out\production\day20e;E:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\lib\idea_rt.jar
+java.vm.specification.version::1.8
+sun.arch.data.model::32
+java.home::E:\Program Files (x86)\Java\jdk1.8.0_144\jre
+sun.java.command::cn.itcast.p1.otherapi.system.SystemDemo
+java.specification.vendor::Oracle Corporation
+user.language::zh
+awt.toolkit::sun.awt.windows.WToolkit
+java.vm.info::mixed mode
+java.version::1.8.0_144
+java.ext.dirs::E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+sun.boot.class.path::E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\resources.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\rt.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jsse.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jce.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\charsets.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jfr.jar;E:\Program Files (x86)\Java\jdk1.8.0_144\jre\classes
+java.vendor::Oracle Corporation
+file.separator::\
+java.vendor.url.bug::http://bugreport.sun.com/bugreport/
+sun.cpu.endian::little
+sun.io.unicode.encoding::UnicodeLittle
+sun.desktop::windows
+sun.cpu.isalist::pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86

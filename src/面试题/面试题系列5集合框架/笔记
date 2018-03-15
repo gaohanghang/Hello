@@ -1,0 +1,47 @@
+ArrayList/LinkedList
+
+单向链表
+
+node --> data
+        next--> data
+                next --> data
+                        next --> ...null
+
+双向链表
+
+node --> prev
+        data <-- prev
+        next --> data <-- prev
+                next --> data
+                        next
+
+面试题
+
+集合框架 --> 自己实现
+
+基础 --> 面向对象 --> 集合框架(ArrayList...) --> IO --> 多线程 --> ...
+
+Web:JDBC/JSP/Servlet
+
+前台：HTML5/CSS3/bootstrap(前台框架)/JS/JQuery/Ajax--->XML/JSON
+
+数据库：Oracle/Mysql...
+
+Web Framework:Struts2/SpringMvc/Hibernate/Mybatis Spring SSH
+
+使用Spring整合框架
+
+Collection ：接口
+    --> List --> LinkedList 双向链表/
+            --> ArrayList 数组/ 特点：元素可重复
+
+Map --> HashSet特点：元素不可重复
+
+Collections:操作集合的帮助类
+
+
+
+
+
+
+
