@@ -53,3 +53,12 @@ sun.cpu.endian::little
 sun.io.unicode.encoding::UnicodeLittle
 sun.desktop::windows
 sun.cpu.isalist::pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+
+
+java.util.GregorianCalendar[time=1521351149256,areFieldsSet=true,
+areAllFieldsSet=true,lenient=true,
+zone=sun.util.calendar.ZoneInfo[id="Asia/Shanghai",offset=28800000,dstSavings=0,
+useDaylight=false,transitions=19,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,
+YEAR=2018,MONTH=2,WEEK_OF_YEAR=12,WEEK_OF_MONTH=4,DAY_OF_MONTH=18,DAY_OF_YEAR=77,DAY_OF_WEEK=1,
+DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=32,SECOND=29,MILLISECOND=256,
+ZONE_OFFSET=28800000,DST_OFFSET=0]

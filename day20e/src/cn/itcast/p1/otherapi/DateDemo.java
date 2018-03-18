@@ -1,10 +1,17 @@
-package cn.itcast.p1.otherapi.system;
+package cn.itcast.p1.otherapi;
 
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * 04-其他对象API(Date类)
+ * 05-其他对象API(Date类-日期对象转成字符串)
+ * 06-其他对象API(Date类-字符串转成日期对象)
+ * 07-其他对象API(Date类-练习)
+ *
+ */
 public class DateDemo {
 
     /**

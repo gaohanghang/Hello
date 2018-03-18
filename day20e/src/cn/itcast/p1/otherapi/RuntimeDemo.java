@@ -1,7 +1,10 @@
-package cn.itcast.p1.otherapi.system;
+package cn.itcast.p1.otherapi;
 
 import java.io.IOException;
 
+/**
+ * 02-其他对象API(Runtime类)
+ */
 public class RuntimeDemo {
 
     /**

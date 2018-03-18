@@ -1,8 +1,10 @@
-package cn.itcast.p1.otherapi.system;
+package cn.itcast.p1.otherapi;
 
-import java.util.Map;
 import java.util.Random;
 
+/**
+ * 03-其他对象API(Math类)
+ */
 public class MathDemo {
 
     public static void main(String[] args) {

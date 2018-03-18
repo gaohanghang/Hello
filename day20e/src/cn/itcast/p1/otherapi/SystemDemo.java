@@ -1,8 +1,12 @@
-package cn.itcast.p1.otherapi.system;
+package cn.itcast.p1.otherapi;
 
 import java.util.Properties;
 import java.util.Set;
 
+/**
+ * 01-其他对象API(System类)
+ * 01-其他对象API(System类)
+ */
 public class SystemDemo {
 
     private static final String LINE_SEPARATOR = System.getProperty("line.separator");
