@@ -1,4 +1,4 @@
-package com.imooc;
+package 单例模式;
 
 /*
     单例模式Singleton
