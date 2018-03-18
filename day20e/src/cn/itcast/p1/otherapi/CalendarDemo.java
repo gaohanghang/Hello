@@ -20,6 +20,7 @@ public class CalendarDemo {
         Calendar c = Calendar.getInstance();
 
         int year = 2011;
+
         showDays(year);
     }
 
