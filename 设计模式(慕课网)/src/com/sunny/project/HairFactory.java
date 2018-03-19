@@ -52,7 +52,6 @@ public class HairFactory {
 
         try {
             Map<String,String> map = new PropertiesReader().getProperties();
-
             HairInterface hair = (HairInterface) Class.forName(map.get(key)).newInstance();
             return hair;
         } catch (InstantiationException e) {
