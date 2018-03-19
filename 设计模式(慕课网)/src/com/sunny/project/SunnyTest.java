@@ -17,7 +17,7 @@ public class SunnyTest {
 //        HairInterface left = factory.getHairByClass("com.sunny.project.LeftHair");
 //        left.draw();
 
-//        HairInterface hair = factory.getHairByClassKey("right");
-//        hair.draw();
+        HairInterface hair = factory.getHairByClassKey("in");
+        hair.draw();
     }
 }

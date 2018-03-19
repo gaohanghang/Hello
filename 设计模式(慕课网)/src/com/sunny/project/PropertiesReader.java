@@ -19,6 +19,7 @@ public class PropertiesReader {
         Map<String, String> map = new HashMap<String, String>();
         try {
 
+            // getClass获取到的是Class对象，getResourceAsStream方法是Class中的方法
             InputStream in = getClass().getResourceAsStream("type.properties");
             props.load(in);
             Enumeration en = props.propertyNames();
