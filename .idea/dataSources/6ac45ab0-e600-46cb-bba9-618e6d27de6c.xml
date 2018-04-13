@@ -816,7 +816,7 @@
     <column id="206" parent="204" name="id">
       <Position>1</Position>
       <Comment>博客类型</Comment>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
@@ -824,50 +824,50 @@
     <column id="207" parent="204" name="title">
       <Position>2</Position>
       <Comment>博客题目</Comment>
-      <DataType>varchar(200)|0</DataType>
+      <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="208" parent="204" name="summary">
       <Position>3</Position>
       <Comment>博客摘要</Comment>
-      <DataType>varchar(400)|0</DataType>
+      <DataType>varchar(400)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="209" parent="204" name="releaseDate">
       <Position>4</Position>
       <Comment>发布日期</Comment>
-      <DataType>datetime|0</DataType>
+      <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="210" parent="204" name="clickHit">
       <Position>5</Position>
       <Comment>评论次数</Comment>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="211" parent="204" name="replyHit">
       <Position>6</Position>
       <Comment>回复次数</Comment>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="212" parent="204" name="content">
       <Position>7</Position>
       <Comment>博客内容</Comment>
-      <DataType>text|0</DataType>
+      <DataType>text|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="213" parent="204" name="keyWord">
       <Position>8</Position>
       <Comment>关键字</Comment>
-      <DataType>varchar(200)|0</DataType>
+      <DataType>varchar(200)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="214" parent="204" name="type_id">
       <Position>9</Position>
       <Comment>外键关联博客类别</Comment>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <index id="215" parent="204" name="type_id">
@@ -887,7 +887,7 @@
     <column id="218" parent="205" name="id">
       <Position>1</Position>
       <Comment>博客id</Comment>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
@@ -895,13 +895,13 @@
     <column id="219" parent="205" name="type_name">
       <Position>2</Position>
       <Comment>博客类别</Comment>
-      <DataType>varchar(30)|0</DataType>
+      <DataType>varchar(30)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="220" parent="205" name="order_num">
       <Position>3</Position>
       <Comment>博客排序</Comment>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="221" parent="205" name="PRIMARY">
