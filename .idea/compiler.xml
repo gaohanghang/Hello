@@ -7,11 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java8_Student" />
+        <module name="springboot-admin" />
+        <module name="springboot-es" />
+        <module name="springboot-start" />
+        <module name="springboot-starter-1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="imooc-springboot-start" target="1.8" />
       <module name="java8_Student" target="1.5" />
       <module name="java8_Study" target="1.5" />
+      <module name="springboot-admin" target="1.8" />
+      <module name="springboot-es" target="1.8" />
+      <module name="springboot-start" target="1.8" />
+      <module name="springboot-starter-1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
